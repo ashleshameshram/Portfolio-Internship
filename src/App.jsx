@@ -1,7 +1,9 @@
+import Navbar from "./navbar.jsx"
+
 function App() {
   return (
    <>
-      <h1>Ashlesha's Portfolio</h1>
+    <Navbar />
    </>
   )
 }
