@@ -4,9 +4,9 @@ import './Navbar.css'
 
 const links = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
+  { label: 'About', href: '#aboutme' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Project', href: '#project' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <nav className="container navbar-inner">
-        <a href="#home" className="navbar-logo">Ashlesha</a>
+        <a href="#home" className="navbar-logo">Ashlesha's Portfolio</a>
 
         <ul className={open ? 'navbar-links open' : 'navbar-links'}>
           {links.map((link) => (
